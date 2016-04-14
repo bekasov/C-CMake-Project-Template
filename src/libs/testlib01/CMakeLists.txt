@@ -1,0 +1,6 @@
+set(TESTLIB01_NAME "TestLib01")
+set(TESTLIB01_NAME "${TESTLIB01_NAME}" PARENT_SCOPE)
+
+project(${TESTLIB01_NAME})
+
+add_library(${TESTLIB01_NAME} testlib01.cpp)
